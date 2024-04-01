@@ -1,0 +1,273 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+a {
+    color: rgb(189, 7, 92);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+#header {
+    background: #fff;
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 5px 0;
+    box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
+}
+
+#hero {
+    width: 100%;
+    height: 90vh;
+    background: url("./assets/car.png") top center;
+    background-size: cover;
+    position: relative;
+}
+
+#hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero .container {
+    padding-top: 72px;
+}
+
+@media (max-width: 992px) {
+    #hero .container {
+        padding-top: 62px;
+    }
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+#hero h2 {
+    color: #eee;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+
+#hero .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+#hero .btn-get-started:hover {
+    background: #ff69b4;
+    border: 2px solid #ff69b4;
+}
+
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed;
+    }
+}
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-title {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: rgb(189, 7, 92);
+}
+
+.section-title2 {
+    padding-bottom: 20px;
+}
+
+.about {
+    padding-bottom: 0;
+}
+
+.about .content h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #444444;
+    font-family: "Poppins", sans-serif;
+}
+
+.about .content p {
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #676868b5;
+    /* Light grey background */
+    color: #333333;
+}
+
+.footer-info h3 {
+    color: rgb(189, 7, 92);
+    /* Green header text color */
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+
+}
+
+.footer-links h4 {
+    margin-top: 40px;
+
+    color: rgb(189, 7, 92);
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-left: 100px;
+
+}
+
+.footer-links ul {
+    padding-left: 100px;
+    padding-bottom: 10px;
+
+}
+
+.footer-links ul li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.footer-links ul li a {
+    color: #333333;
+    /* Dark link text color */
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    color: rgb(189, 7, 92);
+    /* Green on hover */
+}
+
+.footer-contact h4 {
+    margin-top: 40px;
+
+    color: rgb(189, 7, 92);
+    ;
+    /* Green header text color */
+    font-size: 18px;
+    margin-bottom: 15px;
+
+}
+
+.footer-contact div {
+    margin-bottom: 8px;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: rgb(189, 7, 92);
+    /* Pink background */
+    color: #ffffff;
+    /* White icon color */
+}
+
+.social-links a:hover {
+    background-color: #333;
+    /* Lighter pink on hover */
+}
+
+
+.custom-card {
+    border: 2px solid #fb3b9b;
+    /* Pink border */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+.custom-card .card-title {
+    color: #fb3b9b;
+    /* Pink color for card title */
+}
+
+.custom-card .bi {
+    color: #fb3b9b;
+    /* Pink color for icons */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: 120px;
+    margin-right: 100px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgb(189, 7, 92);
+}
